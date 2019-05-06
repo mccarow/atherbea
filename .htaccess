@@ -1,0 +1,13 @@
+RewriteEngine on
+AddDefaultCharset UTF-8
+php_value mbstring.internal_encoding UTF-8
+RewriteRule ^index.html$ index.php [L]
+
+#RewriteRule ^contact.html$ contact.php [L]
+
+RewriteRule ^actualite-([a-z\-_0-9]*)\.html$ actualite.php?url=$1.html [L]
+
+RewriteRule ^([a-z\-_0-9]*)\.html$ page.php?url=$1.html [L]
+
+ErrorDocument 404 http://localhost/atherbea/404.php
+
