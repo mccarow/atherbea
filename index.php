@@ -24,7 +24,8 @@ include("inc/conf.php");
         -->
         <div id="div_contenaire" class="row m-0 text-white text-center">
             <div id="pole_association" class="pole col-lg-3 col-md-6">
-                <span>L'ASSOCIATION</span></br>
+                <span>L'ASSOCIATION 3</span></br>
+                <div>test</div>
                 <h2>ATHERBEA</h2>
                 <ul class="lien_rapide">
                     <li><a href="#"> Présentation</a></li>
